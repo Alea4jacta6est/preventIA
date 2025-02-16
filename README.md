@@ -11,8 +11,8 @@ PreventIA is an AI-driven health scoring and risk estimation framework designed 
 The system is built using Python 3.10 and is structured with both frontend and backend services. The architecture integrates multiple AI models and data sources, including:
 
 - **Mistral Large 2**: Processes patient history and risk estimation rules (e.g., SCORE2-Diabetes).
-- **Pixtral Large**: Analyzes medical images such as X-rays and MRIs.
-- **MedRAX Agent**: Handles structured reasoning for medical analysis and risk estimation.
+- **Pixtral Large**: Analyzes medical images such as MRIs.
+- **MedRAX Agent**: Handles structured reasoning for medical analysis and risk estimation of X-ray imaging data.
 - **Agent Router**: Directs patient information to specialized estimators (e.g., heart risk, diabetes risk, arterial hypertension, depression).
 - **Risk Assessment Module**: Generates JSON-based scoring per test, providing:
   - Summary per risk type
