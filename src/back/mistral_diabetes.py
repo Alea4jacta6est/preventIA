@@ -33,7 +33,7 @@ model = "mistral-large-latest"
 client = Mistral(api_key=api_mistral)
 
 
-PATIENT_ORDER = ["data/patient_0", "data/patient_1", "data/patient_2", "data/patient_3"]
+PATIENT_ORDER = ["data/processed/patient_0", "data/processed/patient_1", "data/processed/patient_2", "data/processed/patient_3"]
 
 ANALYSIS_FOLDER = "data/cached_results"
 
@@ -60,7 +60,7 @@ def analyze_patient_directory(patient_directory: str) -> dict:
     )
     data_result_str = data_response.choices[0].message.content
     data_response_json = orjson.loads(data_result_str)
-    data_response_json["sources"] = patient_data_files
+    data_response_json["sources"] = ["Historical observations", "Patient lifestyle"]
 
     # Extract advices properly
     doctor_advices = [
