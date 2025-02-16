@@ -1,4 +1,4 @@
 # Makefile for Sphinx documentation
 back:
-	python main.py
+	python src/back/mistral_diabetes.py
 
