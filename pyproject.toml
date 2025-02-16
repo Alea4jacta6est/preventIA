@@ -1,0 +1,17 @@
+[project]
+name = "preventia"
+version = "0.0.1"
+description = "AI-based Healthcare Assessment Framework"
+authors = [
+    {name = "Natalia Bobkova",email = "nbobkova174@gmial.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
