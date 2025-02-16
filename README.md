@@ -24,7 +24,6 @@ The system is built using Python 3.10 and is structured with both frontend and b
 ### Prerequisites
 
 - Python 3.10
-- Poetry
 - OpenAI, Mistral API Keys
 
 ### Setup
@@ -35,9 +34,9 @@ The system is built using Python 3.10 and is structured with both frontend and b
    cd preventia
    ```
 
-2. Install dependencies using Poetry:
+2. Install dependencies:
    ```sh
-   poetry install
+   pip install -r requirements.txt
    ```
 
 3. Run the backend and frontend services:
