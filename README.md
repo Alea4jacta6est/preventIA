@@ -6,7 +6,7 @@ PreventIA is an AI-driven health scoring and risk estimation framework designed 
 
 ## Architecture
 
-The system is built using Python 3.12 and is structured with both frontend and backend services. The architecture integrates multiple AI models and data sources, including:
+The system is built using Python 3.10 and is structured with both frontend and backend services. The architecture integrates multiple AI models and data sources, including:
 
 - **Mistral Large 2**: Processes patient history and risk estimation rules (e.g., SCORE2-Diabetes).
 - **Pixtral Large**: Analyzes medical images such as X-rays and MRIs.
@@ -23,6 +23,7 @@ The system is built using Python 3.12 and is structured with both frontend and b
 
 - Python 3.12
 - Poetry
+- OpenAI, Mistral API Keys
 
 ### Setup
 
@@ -52,8 +53,12 @@ The system is built using Python 3.12 and is structured with both frontend and b
 
 ## Contributors
 
-- Your Name (@your-github-handle)
-- Team Members
+- Natalia Bobkova
+- Victoria Latynina
+- Quentin Clément
+- Abderrazaq Makran
+- Guillaume Deramchi 
+- Manech Laguens
 
 ## Acknowledgments
 
