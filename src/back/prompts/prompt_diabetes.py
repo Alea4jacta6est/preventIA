@@ -5,8 +5,8 @@ PROMPT_DIABETES = """### Instructions
 I will provide you with observations data for one patient. Please follow the methodology provided below and output the diabetes risk probability (0-100%). Provide a brief explanation of each component and severity level. Set a theraputic goal for the patient to reduce a given risk. Provide both patient and doctor with advise to reduce the risk. The advise should contain exact actions to perform enriched with numbers of potential improvement of a given component (like "A balanced diet could reduce cholesterol level by 40%").
 
 Be as specific as possible in terms of advise:
-    - for the doctor: a concrete action for the patient in terms of lifestyle
-    - for the patient: a concrete medication to prescribe for a psecific purpose, a concrete analysis to perform for a psecific purpose.
+    - for the patient: a concrete action for the patient in terms of lifestyle
+    - for the doctor: a concrete medication to prescribe for a psecific purpose, a concrete analysis to perform for a psecific purpose.
 
 If the patient data is missing on some component, mark `severity_level` as Unknown, alert the healcare professional about the necessity to fill in the missing info through:
     - analisys presciption
