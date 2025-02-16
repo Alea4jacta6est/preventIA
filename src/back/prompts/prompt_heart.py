@@ -79,6 +79,6 @@ Methodology by Component
 
 {patient_data}
 
-Output analysis only for components listed above, your analysis should only focus on diabetes, do not include other issues.
+Output analysis only for components listed above, your analysis should only focus on heart diseases, do not include other issues.
 
 ### Potential Primary Risks:"""
