@@ -35,6 +35,7 @@ client = Mistral(api_key=api_mistral)
 
 PATIENT_ORDER = ["data/processed/patient_0", "data/processed/patient_1", "data/processed/patient_2", "data/processed/patient_3"]
 
+
 ANALYSIS_FOLDER = "data/cached_results"
 
 
